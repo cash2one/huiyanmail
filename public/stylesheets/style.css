@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+*{ margin:0; padding:0; font-family:微软雅黑; font-size:12px;}
+body{background:url(../images/bg.png) no-repeat center 770px #1fb8f1; }
+.clear{ clear:both;}
+.conterbox{ width:1108px; margin:auto;}
+.box01{ background:url(../images/pic1.png) no-repeat center 252px;}
+.box02{ background:url(../images/pic2.png) no-repeat center 280px;}
+.imglogo{ margin:auto; padding:35px 0; width:310px;}
+.word01{ text-align:center; color:#FFF; }
+.word01 span{ font-size:36px;}
+.word01 h2{ font-weight:lighter; font-size:60px;}
+.word01 h2 strong{ font-size:72px;}
+.btn01{  margin:20px 0;}
+.btn01 a{ display:block; width:340px; height:60px; border:1px solid #FFF; line-height:60px; text-align:center; margin:auto; color:#FFF; text-decoration:none; font-size:24px; border-radius:4px;}
+.btn01 a:hover{ background:#fff; color:#1fb8f1;}
+.word03{ font-size:18px; text-align:center; color:#343434; line-height:36px;  padding-top:500px;}
+.word02{ text-align:center; color:#1fb8f1; }
+.word02 span{ font-size:36px;}
+.word02 h2{ font-weight:lighter; font-size:60px;}
+.word02 h2 strong{ font-size:72px;}
+.btn02{  margin:20px 0;}
+.btn02 a{ display:block; width:340px; height:60px; border:1px solid #1fb8f1; line-height:60px; text-align:center; margin:auto; color:#1fb8f1; text-decoration:none; font-size:24px; border-radius:4px;}
+.btn02 a:hover{ background:#1fb8f1; color:#fff;}
+.list li{ float:left; width:247px; padding:50px 15px; list-style:none; color:#FFF;}
+.list li i{ display:block; margin:auto; background:#FFF; text-align:center; border-radius:100px; width:150px; height:150px;}
+.list li i img{ display:block; padding:33px;}
+.list li p{ font-size:18px; line-height:36px; text-align:center; padding:20px 0 0 0;}
+.footer{ font-size:14px; color:#666; line-height:24px; background:#FFF; text-align:center; padding:20px 0;}
+
+/*客服样式+回到顶部*/
+.izl-rmenu{position:fixed; right:0; top:20%; width:145px; height:469px; margin-right:20px; bottom:20px; padding-bottom:20px; background:url(../images/qq.png) no-repeat; z-index:999; padding-top:180px; text-align:center; }
+.izl-rmenu a{ color:#FFF;}
+.izl-rmenu .btn{width:145px;  height:28px; margin-bottom:1px; cursor:pointer; position:relative;}
+.izl-rmenu a.btn-qq,.izl-rmenu a.btn-qq:visited{text-decoration:none; display:block;}
+.izl-rmenu .btn-top{ display:none; background-color:#c01f1f;}
+.izl-rmenu .btn-top .pic{ padding-top:8px;}
+.izl-rmenu .btn-top:hover{background-color:#c01f1f;}
+
+/*表单样式*/
+.from{ width:660px; background:#FFF; border-radius:4px; padding:40px 30px; position:relative; z-index:1;}
+.from .lis{ padding:15px; clear:both; height:50px; }
+.from .lis .xinhao{ font-size:24px; color:#F00; text-align:left; padding-left:10px; width:20px;}
+.from .lis span{ display:block; float:left; height:50px; line-height:50px; padding-right:20px; width:80px; text-align:center; font-size:18px;}
+.from .lis input{ display:block; float:left; width:430px; height:50px; line-height:50px; padding-left:8px; font-size:18px; font-weight:bold; border-radius:4px; border:1px solid #e1e1e1;}
+.from iframe{ margin:auto; border:1px solid #e1e1e1; width:533px; margin-left:20px; }
+.agreement{ font-size:12px; line-height:18px; padding:10px;}
+.tijiaobtn a{ width:195px; height:50px; line-height:50px; color:#fff; font-size:24px; text-align:center; background:#1fb8f1; margin:20px auto; border-radius:4px; text-decoration:none; display:block;}
+.succ{ font-size:18px; line-height:36px; text-align:center;}
+.succ h2{ font-size:30px; color:#ff0000; padding-bottom:20px;}
+.succ a{ font-size:18px; color:#06C;}
+.close{ position:absolute; z-index:2; top:20px; right:20px; font-family:Tahoma, Geneva, sans-serif; font-size:30px; color:#CCC; cursor:pointer;}
+.close:hover{ color:#999;}

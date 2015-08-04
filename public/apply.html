@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>百思慧眼</title>
+    <link href="./stylesheets/style.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="./javascripts/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="./javascripts/lrtk.js"></script>
+</head>
+
+<body>
+<form name="frm" action="/send" method="post">
+    <div class="from">
+        <div class="close">X</div>
+        <div class="lis"><span>用 户 名 </span>
+            <input name="username" type="text"/>
+            <span class="xinhao">*</span></div>
+        <div class="lis"><span>密       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码 </span>
+            <input name="password" type="password"/>
+            <span class="xinhao">*</span></div>
+        <div class="lis"><span>确认密码</span>
+            <input name="retry" type="password"/>
+            <span class="xinhao">*</span></div>
+        <div class="lis"><span>电子邮箱</span>
+            <input name="email" type="text"/>
+            <span class="xinhao">*</span></div>
+        <div class="lis"><span>公司名称 </span>
+            <input name="company" type="text"/>
+            <span class="xinhao">*</span></div>
+        <div class="lis"><span>网       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;址</span>
+            <input name="url" type="text"/>
+            <span class="xinhao">*</span></div>
+        <div class="lis"><span>联系电话</span>
+            <input name="telphone" type="text"/>
+            <span class="xinhao">*</span></div>
+        <div class="lis"><span>联  系  人</span>
+            <input name="contact" type="text"/>
+            <span class="xinhao">*</span></div>
+        <iframe name="left" id="rightMain" class="ifrbor" src="./agreement.html" frameborder="false" scrolling="auto"
+                width="533" height="180" allowtransparency="true"></iframe>
+        <div class="tijiaobtn"><a id="submit" onclick="submit()">提&nbsp;&nbsp;交</a></div>
+
+        <script type="application/javascript">
+            function submit() {
+                document.forms.namedItem('frm').submit();
+            }
+        </script>
+    </div>
+</form>
+
+</body>
+</html>
